@@ -5,7 +5,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
   <title>My Stories - Fantasy Pets</title>
-
+  <script>
+    function playDogBarkingSound() {
+      var audio = new Audio();
+      audio.src = "./mixkit-dog-barking-twice-1.wav"
+      audio.play();
+    }
+  </script>
   <style type="text/css">
     * {
       color: rgb(30, 30, 250);
@@ -46,12 +52,13 @@
     <h2 class="ocean">Bluebone</h2>
     <p>The bluebone is a perfect mythical companion for dog lovers because</p>
     <ul>
-      <li>The bluebone is a blue dog with a bone in its teeth</li>
+      <li>The bluebone is a blue dog with a bone in its teeth.Becausa it is magic </li>
     </ul>
     <p>The catclaw is a amazing mythical companion for cat lovers because</p>
     <ul>
       <li>the catclaw is a cat with cat claw tattoo on its cheeks</li>
     </ul>
+    <button onclick="playDogBarkingSound()">Bark</button>
   </main>
   <footer>
     <p class="footer-text">
